@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+.container{
+    
+  
+    height: 100vh;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+header{
+	height: 8vh;
+	width: 100%;
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	gap: 10px;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+}
+.search{
+	margin-right: 50px;
+}
+.search input{
+	width: 700px;
+	margin-right: -77px;
+}
+.items{
+	display: flex;
+	gap: 20px;
+}
+.nav-items{
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	padding: 0;
+	margin-left: -200px;
+	align-items: flex-start;
+	height: 5vh;
+}
+.nav-item{
+	display: flex;
+}
+.product-option{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.new-item-product span:hover{
+	background-color: #333;
+}
+.nav-item-product:hover .product-option{
+	display: block;
+	background-color: whitesmoke;
+	padding: 5px;
+}
+.product-option a{
+	text-decoration: none;
+	
+}
+.product-option a:hover{
+	color: blue;
+}
+.nav-item-product span:hover{
+	background-color: whitesmoke;
+}
+.slide-image{
+	height: 70vh;
+	width: 100%;
+	padding: 0;
+}
+.products{
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;	
+	
+	
+	  
+}
+.product{
+	height: inherit;
+	width: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+.products a{
+	text-decoration: none;
+}
+.products a:hover{
+	background-color: whitesmoke;
+}
+.content{
+	display: flex;
+	align-items: center;
+}
+.work-image{
+	height: 80vh;
+	width: 60vw;
+}
+.description{
+	font-size: 20px;
+}
+.fun-facts{
+	background-color: whitesmoke;
+	/* background-repeat: no-repeat;
+	background-size: 100% 100%; */
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 30vh;
+	width: 100%;
+}
+footer{
+    display: flex;
+	color: #bdbdbd;
+	height: 20vh;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.social-item{
+    margin-right: 12px;
+    font-size: 1.25rem;
+}
+
+.social-item:hover{
+    color: #333;
+}
+footer span:hover{
+	color: red;
+}
+footer span a{
+	text-decoration: none;
+}
